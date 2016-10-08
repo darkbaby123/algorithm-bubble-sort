@@ -20,10 +20,19 @@ The Ruby version implements most optimized bubble sort and cocktail shaker sort.
 
 ## How to run
 
-Run JavaScript version
+JavaScript version
 
 ```bash
 cd js
 npm install
 npm test # run all tests
+```
+
+Ruby version
+
+```bash
+cd ruby
+bundle install
+./bin/rspec # run all tests
+./bin/console # Enter irb with lib/bubble_sort.rb loaded
 ```

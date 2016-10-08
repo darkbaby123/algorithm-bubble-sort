@@ -16,7 +16,7 @@ function createExampleGroup(solution) {
   }
 
   describe(solution.name, () => {
-    createExample([], [], { focus: true })
+    createExample([], [])
     createExample([1], [1])
     createExample([2, 1], [1, 2])
     createExample([2, 1, 5, 4, 3], [1, 2, 3, 4, 5])

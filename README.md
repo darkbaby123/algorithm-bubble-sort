@@ -3,6 +3,8 @@
 
 ## Summary
 
+[Wikipedia link](https://en.wikipedia.org/wiki/Bubble_sort)
+
 This is a algorithm practise for bubble sort and cocktail shaker sort (aka bidirection bubble sort). I implemented the JavaScript version. Ruby version and Elixir version will be done later.
 
 In JavaScript version I implement 3 bubble sort functions and 2 cocktail shaker sort functions. They're:
@@ -20,5 +22,6 @@ Run JavaScript version
 
 ```bash
 cd js
+npm install
 npm test # run all tests
 ```

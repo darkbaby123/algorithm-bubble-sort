@@ -1,4 +1,4 @@
-defmodule BubbleSort do
+defmodule BubbleSortOld do
   def bubble_sort(list) when length(list) < 2, do: list
   def bubble_sort(list) do
     {rest, [max]} = list |> bubble_move_right |> Enum.split(-1)
@@ -14,7 +14,7 @@ defmodule BubbleSort do
 
   defp bubble_move_right([a]), do: [a]
   defp bubble_move_right([a, b | rest]) when a > b, do: [b | bubble_move_right([a | rest])]
-  defp bubble_move_right([a, b | rest]), do: [a | bubble_move_right([b | rest])]
+  defp bubble_move_right([a | rest]), do: [a | bubble_move_right(rest)]
 
   defp bubble_move_left([a]), do: [a]
   defp bubble_move_left(list) do

@@ -56,3 +56,8 @@ iex -S mix    # Enter iex with lib/bubble_sort.ex loaded
 
 [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort)
 [Cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
+
+
+https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort#Elixir
+https://gist.github.com/rylev/6906490
+https://www.reddit.com/r/elixir/comments/3dglma/is_this_a_crazy_way_to_do_a_bubble_sort/
